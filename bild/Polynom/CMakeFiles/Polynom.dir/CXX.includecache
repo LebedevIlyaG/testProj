@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/runner/testProj/Polynom/polynom.cpp
+polynom.h
+/home/runner/testProj/Polynom/polynom.h
+
+/home/runner/testProj/Polynom/polynom.h
+

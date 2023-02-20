@@ -1,4 +1,4 @@
-run = "cowsay Configure me!"
+run = "./bild/bin/sample_Polynom"
 
 [nix]
 channel = "stable-22_11"

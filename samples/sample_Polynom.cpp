@@ -6,6 +6,7 @@
 // Тестирование битового поля и множества
 
 #include <iomanip>
+#include <iostream>
 
 // #define USE_SET // Использовать класс TSet,
                 // закоментировать, чтобы использовать битовое поле
@@ -15,12 +16,8 @@ int main()
 {
   int n, m, k, count;
 
-  setlocale(LC_ALL, "Russian");
-  cout << "Тестирование программ поддержки множества" << endl;
-  cout << "              Решето Эратосфена" << endl;
-  cout << "Введите верхнюю границу целых значений - ";
-  cin  >> n;
+  //setlocale(LC_ALL, "Russian");
+  std::cout << "Test2" << std::endl;
+
 
 }
-
-#endif

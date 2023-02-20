@@ -2,6 +2,11 @@
 
 #include <gtest.h>
 
+TEST(TBitField, can_get_length)
+{
+  EXPECT_EQ(3, add(1, 2));
+}
+
 /*
 TEST(TBitField, can_create_bitfield_with_positive_length)
 {
