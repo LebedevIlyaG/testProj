@@ -32,7 +32,7 @@ jobs:
         run: cd build
 
       - name: cmake
-        run: cmake ..
+        run: cmake /home/runner/work/testProj/build .
 
       - name: make
         run: make
