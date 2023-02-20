@@ -31,7 +31,7 @@ jobs:
       - name: cd
         run: cd build
 
-     - name: ls
+      - name: ls
         run: ls
 
       - name: cmake
