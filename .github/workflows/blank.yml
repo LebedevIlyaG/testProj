@@ -31,6 +31,9 @@ jobs:
       - name: cd
         run: cd build
 
+     - name: ls
+        run: ls
+
       - name: cmake
         run: cmake /home/runner/work/testProj/build .
 
