@@ -2,9 +2,14 @@
 
 #include <gtest.h>
 
-TEST(TBitField, can_get_length)
+TEST(TBitField, can_add12)
 {
   EXPECT_EQ(3, add(1, 2));
+}
+
+TEST(TBitField, can_add23)
+{
+  EXPECT_EQ(5, add(2, 3));
 }
 
 /*
